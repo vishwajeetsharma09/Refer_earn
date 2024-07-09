@@ -139,7 +139,7 @@ const ReferralFormModal = ({ handleClose }) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('https://refer-earn-backend.onrender.com/api/referrals', formData);
+      const response = await axios.post('http://localhost:5000/api/referrals', formData);
       console.log(response.data);
 
       // Show success message
