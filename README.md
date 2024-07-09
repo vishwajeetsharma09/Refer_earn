@@ -41,8 +41,3 @@ Implement error handling for various scenarios (e.g., missing fields, invalid da
 Email Notification:
 Implement functionality to send a referral email using the Google Mail Service API upon successful referral submission.✅✅✅(DONE yes email is accuretly going to target gmail ) 
 
-
-( *********** ALSO ADDED ONE EXTRA CUSTOM MESSAGE FEATURE IN FORM FOR BETTER EXPERIENCE ***************) 
-
-
-Respected hiring team , this project was specially made for completing the given task and it took so much time and hardwork so its my humble request please give some feedback even if i will get rejected even a small rejection mail will work but please don't ghost its humble request 🙏....
