@@ -1,0 +1,228 @@
+/* src/components/HeroSection.css */
+.hero-section {
+    /* text-align: center; */
+    padding: 50px 20px;
+       /* align-items: center; */
+    margin-bottom: -9rem;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .hero-section {
+    display: flex;
+  justify-content: center;
+ 
+  }
+  
+  
+  .hero-image img {
+
+margin-top: -8rem;
+   height: 40rem;
+   width: 110% ;
+  }
+
+  .hero-section_main {
+    background-color: #eff7ff;
+    position: relative;
+width: 50%;
+left: 25%;
+margin-bottom: 3rem;
+margin-top: 4rem;
+border-radius: 20px;
+box-shadow: 0px 4px 15px 9px rgba(0, 0, 0, 0.2); 
+  } 
+  
+  .hero-content h1 {
+    font-size: 2.5rem;
+   text-align: left;
+   margin-top: 5.5rem;
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+    text-align: left;
+  }
+  
+  .hero-content button {
+    margin-top: 10px;
+    margin-left: -10rem;
+  }
+  
+  img{
+    width: 100%;
+    height: 250px;
+  }
+
+/* src/components/HeroSection.css */
+
+
+.hero-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.refer-now-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.referral-benefits{
+  background-image: url('/img1.jpeg');
+  /* background-size: cover; */
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+  display: flex;
+ 
+  /* justify-content: center; */
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+.how-it-works{
+
+  background-image: url('/img2.jpeg');
+  /* background-size: cover; */
+  background-color: #eff7ff;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  text-align: center;
+  color: white;
+
+}
+.contact-section{
+  background-image: url('/img3.jpg');
+  /* background-size: cover; */
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  text-align: center;
+}
+
+
+
+
+.referbtn{
+  text-align: center !important;
+  margin-bottom: 3rem;
+  margin-top: -3rem;
+}
+.referbtn2{
+  text-align: center !important;
+  margin-bottom: 3rem;
+  margin-top: 1.5rem;
+}
+
+
+
+
+.app {
+  display: flex;
+  font-family: Arial, sans-serif;
+}
+
+.sidebar {
+  display: flex;
+justify-content: center;
+  gap: 5rem;
+
+}
+
+.sideLeft{
+margin: 3rem;
+}
+
+.sidebar-item {
+  background-color: #f5f5f5;
+  border: 1px solid black;
+  padding: 1rem;
+ margin: 0.8rem;
+
+ border-radius: 8px;
+}
+
+.sidebar-item.active {
+  background-color: white;
+  border-left: 4px solid blue;
+}
+
+.faq-content {
+  max-width: 600px;
+  font-size: 1rem;
+}
+
+.faq-content h1 {
+  font-size: 2rem;
+}
+
+.faq-content .highlight {
+  color: blue;
+}
+
+.faq-item {
+  margin-bottom: 1rem;
+}
+
+.faq-question {
+  font-weight: bold;
+  cursor: default;
+}
+.faq-question1 {
+  color:  rgb(0, 145, 255);
+  white-space: nowrap;
+  margin-bottom: 1rem;
+}
+.faq-question2 {
+  margin-top: 2rem;
+}
+
+.faq-answer {
+  padding-left: 0.3rem;
+}
+
+@media screen and (max-width: 1200px) {
+  /* CSS styles specific to screens up to 600px wide */
+  .faq-question1 {
+    white-space:inherit;
+    
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  /* CSS styles specific to screens up to 600px wide */
+  .btn1{
+    position: relative;
+    left: 225px;
+    text-align: center !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+}
+
+@media screen and (max-width: 851px) {
+  /* CSS styles specific to screens up to 600px wide */
+  .hero-section {
+    display: flex;
+    flex-direction:column;
+  justify-content: center;
+ 
+  }
+
+  .btn1{
+    position: relative;
+    bottom: 19rem;
+    left: 5.4rem;
+  }
+}
+
+

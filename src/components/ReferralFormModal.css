@@ -1,0 +1,37 @@
+/* src/components/ReferralFormModal.css */
+.modal-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 24px;
+    border-radius: 8px;
+  }
+  .modal-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .modal-box h6 {
+    margin-bottom: 20px;
+  }
+  
+  .modal-box form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .modal-box form .MuiTextField-root {
+    margin-bottom: 20px;
+  }
+  
